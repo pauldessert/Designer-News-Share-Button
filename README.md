@@ -12,7 +12,7 @@
 <a id="dn-share-button" href=""></a>
 ```
 
-**Step 2**, include the javascript file at the end of you HTML. Right before the ```html</body>``` tag is a good place:
+**Step 2**, include the javascript file at the end of you HTML. Right before the ```</body>``` tag is a good place:
 
 ```html
 <script src="/js/dn-button.js"></script>
