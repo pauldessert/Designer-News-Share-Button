@@ -1,5 +1,4 @@
-Designer-News-Share-Button
-==========================
+
 # Embeddable Designer News share button
 
 - One single JS self-hosted JS file
