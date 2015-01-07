@@ -1,8 +1,8 @@
 
 # Embeddable Designer News share button
 
-- One single JS self-hosted JS file
-- One line of code
+- One single self-hosted JS file
+- Two lines of code
 
 ### Embedding the button
 
