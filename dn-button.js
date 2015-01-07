@@ -7,7 +7,7 @@
 	var submitURL = "https://news.layervault.com/submit";
 	var fullURL = submitURL + "?title=" + encodeURIComponent(pageTitle) + "&url=" + encodeURIComponent(pageURL);
 	
-	document.querySelectorAll("[name=dn-share-button]").forEach(function (dnLink) {
+	document.querySelectorAll("a[name=dn-share-button]").forEach(function (dnLink) {
 		var dnImage = document.createElement("img");
 		dnLink.href = fullURL;
 		
