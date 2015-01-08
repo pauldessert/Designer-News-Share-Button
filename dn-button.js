@@ -1,4 +1,4 @@
-/* Designer News submit button script. version 0.1 by Paul Dessert*/
+/* Designer News submit button script. version 0.2 by Paul Dessert*/
 
 (function (w) {
   "use strict";
