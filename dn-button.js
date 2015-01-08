@@ -7,26 +7,28 @@
 	var submitURL = "https://news.layervault.com/submit";
 	var fullURL = submitURL + "?title=" + encodeURIComponent(pageTitle) + "&url=" + encodeURIComponent(pageURL);
 	
+	var linkStyles = {
+		background: '#f8f8f8',
+		textDecoration: 'none',
+		verticalAlign: 'text-bottom',
+		padding: '5px',
+		borderRadius: '5px',
+		border: '1px #d2d2d2 solid',
+		color: '#5e6878'
+	};
+
 	var spanStyles = {
-		background: '#fff',
-		border: "1px solid #d1d1d1",
 		fontWeight: 'normal',
 		height: '20px',
-		marginLeft: '1px',
 		minWidth: '20px',
-		padding: '1px 2px 1px 2px',
+		padding: '1px 2px 1px 5px',
 		textAlign: 'center',
-		lineHeight: '14px',
+		lineHeight: '20px',
 		fontFamily: '"lucida grande",verdana,sans-serif',
 		fontSize: '11px'
 	};
 	
-	var linkStyles = {
-		textDecoration: 'none',
-		verticalAlign: 'text-bottom'
-	};
-	
-	var imgStyles = { verticalAlign: 'sub' };
+	var imgStyles = { verticalAlign: 'middle' };
 	var dnImage, dnSpan, dnLink;
 	var buttons = document.querySelectorAll("a[name=dn-share-button]");
 
@@ -48,7 +50,7 @@
 
 		dnLink.appendChild(dnSpan);
 		applyStyles(dnLink, linkStyles);
-		dnSpan.innerHTML = "submit";
+		dnSpan.innerHTML = "Submit";
 		
 		//Insert the image in the DOM
 		dnLink.insertBefore(dnImage, dnLink.firstChild);
