@@ -1,6 +1,6 @@
 
 # Embeddable Designer News share button
-![HN Button](http://www.pauldessert.com/images/dn-sample.png)
+![HN Button](http://www.pauldessert.com/images/dn-button.png)
 - One single self-hosted JS file
 - Two lines of code
 
