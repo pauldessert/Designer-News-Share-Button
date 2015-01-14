@@ -1,6 +1,6 @@
 
 # Embeddable Designer News share button
-<img src="https://cloud.githubusercontent.com/assets/523933/5662922/7e5e2e42-970d-11e4-8f35-e80a82035083.jpg" width="86">
+<img src="https://cloud.githubusercontent.com/assets/523933/5662922/7e5e2e42-970d-11e4-8f35-e80a82035083.jpg" width="75">
 - One single self-hosted JS file
 - Two lines of code
 
