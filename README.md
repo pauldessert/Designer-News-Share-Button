@@ -1,6 +1,6 @@
 
 # Embeddable Designer News share button
-![HN Button](http://www.pauldessert.com/images/dn-button.png)
+<img src="https://cloud.githubusercontent.com/assets/523933/5662922/7e5e2e42-970d-11e4-8f35-e80a82035083.jpg" width="86">
 - One single self-hosted JS file
 - Two lines of code
 
